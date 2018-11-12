@@ -1,0 +1,99 @@
+body{
+    display: flex;
+    min-height: 50vh;
+    flex-direction: column;
+    background-image: url(../img/fondo1.png); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+  }
+  .margen{
+      width: 30rem !important;
+  }
+  .img-container{
+    width: 720px !important;
+    display: flex;
+    background-repeat: no-repeat;
+    }
+
+  .icofont{
+      font-size: 20px !important;
+  }
+  .font-title{
+      font-size: 35px !important;
+      color: white !important;
+      border-spacing:  3px !important;
+      border-color: black !important;
+  }
+
+  .margen-left{
+    margin-left: 187px;
+  }
+
+@media (min-width: 0px) and (max-width: 499px)  {
+    .img-container{
+    background-image: url(../img/logop.png);
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+    background-position-x: 6rem;
+    width: 500px;
+    height: 280px;
+    }     
+ }   
+ @media (min-width: 500px) and (max-width: 599px)  {
+    .img-container{
+    background-image: url(../img/logop.png);
+    margin-left: 3rem;
+    background-position-x: 7rem;
+    width: 500px;
+    height: 280px;
+    }     
+ }   
+
+ @media (min-width: 600px) and (max-width: 700px) {
+    .img-container{
+      background-image: url(../img/logom.png);
+      margin-left: 1.5rem;
+      background-position-x: 3rem;
+      width: 720px;
+      height: 300px;
+    }
+}   
+@media (min-width: 701px) and (max-width: 768px) {
+    .img-container{
+      background-image: url(../img/logom.png);
+      margin-left: 2rem;
+      background-position-x: 3.5rem;
+      width: 800px;
+      height: 300px;
+    }
+}   
+@media (min-width: 769px) and (max-width: 900px) {
+    .img-container{
+      background-image: url(../img/logom.png);
+      margin-left: 5rem;
+      background-position-x: 8rem;
+      width: 800px;
+      height: 300px;
+    }
+}   
+
+ @media (min-width: 901px) and (max-width: 1399px){
+    .img-container{
+       background-image: url(../img/logog.png);
+       width: 700px;
+       height: 300px;
+    }
+    }
+
+    @media (min-width: 1400px) and (max-width: 2100px){
+        .img-container{
+           background-image: url(../img/logog.png);
+           width: 700px;
+           height: 300px;
+        }
+        }
+    
+
+
+
